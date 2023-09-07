@@ -5,9 +5,9 @@ function randomNumber(max) {
 
 function split(arrSplit, arr1, arr2){
     for (x in arrSplit) {
-        if ((arrSplit[x] % 2) !== 0) {
+        if ((x % 2) !== 0) {
             arr1.push(arrSplit[x])
-        } else if ((arrSplit[x] % 2) === 0) {
+        } else if ((x % 2) === 0) {
             arr2.push(arrSplit[x])
         }
     }
