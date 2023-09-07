@@ -1,3 +1,4 @@
+//Bagian Function
 function randomNumber(max) {
     return Math.floor((Math.random() * max) + 1)
 }
@@ -72,7 +73,7 @@ function average(arr) {
     return sum / arr.length;
 }
 
-
+//Bagian Output
 let arr = []
 let arrGanjil = []
 let arrGenap = []
